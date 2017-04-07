@@ -1,0 +1,6 @@
+[run]
+omit =
+  joblib/test/data/*
+
+[report]
+show_missing = True
