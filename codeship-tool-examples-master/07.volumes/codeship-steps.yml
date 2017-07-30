@@ -1,0 +1,4 @@
+- service: write
+  command: bash write_artifact.sh
+- service: read
+  command: cat /artifacts/foo

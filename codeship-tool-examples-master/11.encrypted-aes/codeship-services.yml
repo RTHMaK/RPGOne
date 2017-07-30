@@ -1,0 +1,3 @@
+checker:
+  build: ./
+  encrypted_env_file: environment.encrypted.ci
