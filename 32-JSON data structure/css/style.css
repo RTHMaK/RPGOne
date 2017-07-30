@@ -1,0 +1,45 @@
+body {
+    font-family: helvetica;
+}
+
+#header {
+    background-color:#F16F51;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+h1 {
+    vertical-align: middle;
+    color: white;
+    font-weight: bold;
+}
+
+.row {
+    margin: 10px 20px;
+}
+
+#results {
+    margin: 30px 20px 10px 0px;
+}
+
+.person-row {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #FDB45C;
+    width: 100%;
+    float: left;
+}
+
+.person-row img {
+    float: left;
+    margin-right: 20px;
+}
+
+.personal-info {
+    float: left;
+}
+
+.person-row > button {
+   float: right; 
+}

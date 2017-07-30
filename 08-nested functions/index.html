@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>JAVASCRIPT</title>
+    </head>
+    <body>
+        <script>
+            var text = 'Hello';
+            
+            function decorate(t) {
+                return '####----' + t + '----####';
+            }
+            
+            console.log(decorate(text));
+            console.log(text);
+            console.log(decorate('yooo'));
+            
+            function decorateMore(t) {
+                var a = decorate(t);
+                return '(((' + a + ')))';
+            }
+            
+            console.log(decorateMore('Courses'));
+            
+        </script>
+    </body>
+</html>
+        

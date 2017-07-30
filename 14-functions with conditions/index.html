@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>JAVASCRIPT</title>
+    </head>
+    <body>
+        <script>
+            //1. function for final mark
+            function finalMarkMessage(mark) {
+                var a;
+                switch(mark) {                    
+                    case 'A':
+                        a = 'passed';
+                        break;
+                    case 'B':
+                        a = 'barely passed';
+                        break;
+                    default:
+                        a = 'I dont know how you did';
+                        break;
+                }
+                return a;
+            }
+            
+            console.log(finalMarkMessage('X'));
+            console.log(finalMarkMessage('B'));
+            console.log(finalMarkMessage('C'));
+            
+            //2. function for title
+            function nameWithTitle(name, gender) {
+                if (gender == 'M') {
+                    return 'Mr ' + name;
+                }
+                else if (gender == 'F') {
+                    return 'Ms ' + name;
+                }
+                else {
+                    return '?? ' + name;
+                }
+            }
+            
+            console.log(nameWithTitle('John', 'M'));
+            console.log(nameWithTitle('Susan', 'F'));
+        </script>
+    </body>
+</html>
+        

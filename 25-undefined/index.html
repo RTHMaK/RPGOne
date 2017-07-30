@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>JAVASCRIPT</title>
+    </head>
+    <body>
+        <script>
+            var user = {
+                name: 'Peter',
+                score: 100,
+                country: 'Chile',
+                pets: ['pet1', 'pet2', 'et'],
+                profile: {
+                    type: 'private',
+                    account: 'premium'
+                }
+            };
+            
+            if ('profile' in user) {
+                console.log('the user has a profile');
+            }
+            
+            console.log(user.photo);
+            console.log(user['photo']);
+            
+            if (!user.photo) {
+                console.log('photo is not present!');
+            }
+        </script>
+    </body>
+</html>
+        
